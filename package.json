@@ -18,7 +18,7 @@
     "decode"
   ],
   "author": "@chrisjpatty",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chrisjpatty/decode-query-string/issues"
   },

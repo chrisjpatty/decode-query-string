@@ -1,0 +1,26 @@
+{
+  "name": "decode-query-string",
+  "version": "0.1.0",
+  "description": "An extremely small utility for parsing URL query strings into Javascript objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisjpatty/decode-query-string.git"
+  },
+  "keywords": [
+    "url",
+    "parse",
+    "query",
+    "string",
+    "decode"
+  ],
+  "author": "@chrisjpatty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisjpatty/decode-query-string/issues"
+  },
+  "homepage": "https://github.com/chrisjpatty/decode-query-string#readme"
+}

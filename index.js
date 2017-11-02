@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var parseUrlQuery=function(a){var b=a.split("?"),c=b[1].split("&"),d={};return c.forEach(function(e){var f=e.split("=");d[decodeURI(f[0])]=decodeURI(f[1])}),console.log(d),d};exports.default=parseUrlQuery;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var parseUrlQuery=function(a){var b=a.split("?"),c=b[1].split("&"),d={};return c.forEach(function(e){var f=e.split("=");d[decodeURIComponent(f[0])]=decodeURIComponent(f[1])}),console.log(d),d};exports.default=parseUrlQuery;

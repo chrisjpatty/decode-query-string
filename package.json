@@ -1,6 +1,6 @@
 {
   "name": "decode-query-string",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An extremely small utility for parsing URL query strings into Javascript objects.",
   "main": "index.js",
   "scripts": {

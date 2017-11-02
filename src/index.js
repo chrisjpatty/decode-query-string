@@ -4,7 +4,7 @@ const parseUrlQuery = (input) => {
   let output = {};
   partsArray.forEach((part)=>{
     let pair = part.split("=")
-    output[decodeURI(pair[0])] = decodeURI(pair[1])
+    output[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1])
   })
   console.log(output);
   return output
